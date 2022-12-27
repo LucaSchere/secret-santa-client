@@ -1,0 +1,47 @@
+.button {
+  width: 100px;
+  height: 36px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #2776a0;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  transition: 250ms;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline
+}
+
+.button:hover {
+  opacity: .86;
+}
+
+.transparent {
+  background: transparent !important;
+}
+
+.transparent:hover {
+  color: #d7ebfd;
+}
+
+.match-content {
+  width: fit-content !important;
+  padding: 0 8px;
+}
+
+.danger {
+    background: #f44336;
+}
+
+@media screen and (max-width: 360px) {
+  .match-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

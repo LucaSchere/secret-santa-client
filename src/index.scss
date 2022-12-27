@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #093046;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+::selection {
+  background-color: lightgray;
+  color: #093046;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 200px) {
+  body {
+    display: none;
+  }
+  html{
+
+  }
+  html::after {
+    content: 'Display too small';
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

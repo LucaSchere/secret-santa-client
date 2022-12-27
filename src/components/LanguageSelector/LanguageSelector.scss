@@ -1,0 +1,50 @@
+.language-selector {
+  height: 100%;
+  width: fit-content;
+  cursor: pointer;
+  user-select: none;
+  text-transform: uppercase;
+  z-index: 10;
+}
+
+.selected {
+  height: 48px;
+  width: 100%;
+}
+
+.selected {
+  height: 48px;
+  line-height: 48px;
+  padding: 0 12px;
+  top: 0;
+}
+
+.selected .chevron {
+  height: 10px;
+  width: 10px;
+  margin: 4px;
+}
+
+.option {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.option:hover, .option:active {
+  font-weight: bold;
+}
+
+.selected, .option {
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.option-container {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+}

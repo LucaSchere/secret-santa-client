@@ -1,0 +1,16 @@
+.entrance-container {
+  margin-bottom: 120px;
+}
+
+.section input {
+  width: 100%;
+}
+
+.section .button:nth-of-type(2){
+  float: right;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}

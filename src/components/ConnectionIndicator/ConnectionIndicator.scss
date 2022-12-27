@@ -1,0 +1,28 @@
+.icon {
+    width: 12px;
+    height: 12px;
+    color: white;
+    margin: 8px;
+}
+
+.inactive {
+    animation: blink 1s infinite;
+    color: red;
+}
+
+.indicator-text {
+    height: 12px;
+    font-size: 12px;
+    position: absolute;
+    margin: 8px;
+    cursor: default;
+}
+
+@keyframes blink {
+    0% {
+        color: red;
+    }
+    50% {
+        color: white;
+    }
+}

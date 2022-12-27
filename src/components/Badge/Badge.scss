@@ -1,0 +1,17 @@
+.badge {
+  display: inline-block;
+  height: 1.8rem;
+  font-size: 1.1rem;
+  margin: 0.4rem 0.6rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  color: #000;
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.badge-icon {
+  display: inline-block;
+  margin-left: 6px;
+}

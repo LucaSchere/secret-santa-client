@@ -1,0 +1,40 @@
+header {
+  width: 100%;
+  height: 48px;
+  direction: rtl;
+}
+
+.container {
+  max-width: 650px;
+  min-width: 200px;
+  width: 86%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+}
+
+.footer-text {
+  height: 12px;
+  position: absolute;
+  bottom: 0;
+  margin: 8px;
+  right: 0;
+}
+
+.footer-text a {
+  text-decoration: none;
+}
+
+.footer-text a:visited, a:active {
+  color: white;
+}

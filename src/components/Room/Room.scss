@@ -1,0 +1,55 @@
+.status {
+  position: relative;
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: .8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-bottom: 4rem;
+}
+
+.lock {
+  width: 100%;
+  text-align: center;
+  padding: .4rem;
+  transition: all .3s ease-in-out;
+}
+
+.room-name {
+  max-width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+  border-bottom: 2px solid #2776a0;
+}
+
+.members {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.started > .member > span{
+  border-bottom: rgba(255, 0, 0, 0) 2px solid;
+  animation: blink 0.2s infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: rgba(255, 0, 0, 1);
+  }
+}
+
+.actions {
+  padding: 0.4rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
